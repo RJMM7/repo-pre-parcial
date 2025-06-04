@@ -4,17 +4,16 @@ using namespace std;
 
 int main () {
 
-    int suma = 0;
-    double numero;
+    int suma = 0, numero;
 
     cout << "Por favor, digite un numero: ";
     cin >> numero;
 
-    for(int i = 1; i <= suma; i++) {
-        suma = numero + i;
-    }
+    for(int i = 1; i <= numero; i++) {
+        suma += i;
 
-    cout << "Su numero: " << numero << ", y la suma de los primeros n numeros son: " << suma;
+        cout << "La suma de todos los numeros es: " << suma << endl;
+    }
 
     return 0;
 }
