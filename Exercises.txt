@@ -1,0 +1,13 @@
+/*
+
+    De if: el 19
+
+    De for: el 3
+
+    De while: el 18
+
+    De switch: el 9
+
+    De arreglos: el 5
+
+*/
