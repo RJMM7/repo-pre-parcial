@@ -10,9 +10,9 @@ int main () {
     do
     {
         cout << "Intente adivinar el numero, solo tiene 5 intentos" << endl;
-        cout << "Su numero de intento es: ";
+        cout << "Su intento es: ";
         cin >> numero;
-    } while (numero = 23);
+    } while (numero == 23);
     
 
     return 0;
