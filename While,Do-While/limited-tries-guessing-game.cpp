@@ -24,16 +24,18 @@ int main () {
         cout << "Por favor ingresa un numero entre 1 y 50: ";
         cin >> numero;
 
+        // Se verifica que el numero este dentro del rango aceptado
+        if(numero < 1 || numero > 50) {
+            cout << "-------------------------------------------------" << endl;
+            cout << "Numero fuera de rango, por favor intente de nuevo" << endl;
+            cout << "-------------------------------------------------" << endl;
+        } continue;
+
         // Los intentos van en incremento
         intentos++;
-    } while(numeroVerdadero != numero && intentos <= intentosMaximos);
+
         // Mientras el while se cumpla, entonces se seguira ejecutando el codigo de do
-
-
-    // Se verifica que el numero este dentro del rango. Si no esta en el rango, entonces manda ese mensaje, caso contrario se ejecuta el codigo de for.
-    if (numero < 1 || numero > 50) {
-        cout << "Numero fuera de rango";
-    }
+    } while(numeroVerdadero != numero && intentos <= intentosMaximos);
 
     return 0;
 }
