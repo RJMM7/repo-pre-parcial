@@ -11,9 +11,9 @@ int main () {
 
     for(int i = 1; i <= numero; i++) {
         suma += i;
-
-        cout << "La suma de todos los numeros es: " << suma << endl;
     }
+
+    cout << "La suma de todos los numeros es: " << suma << endl;
 
     return 0;
 }
