@@ -1,23 +1,23 @@
 /*
 
-    De if: el 19:
+    1. De if: el 19:
         Tarifa de Luz Eléctrica
         Calcula la tarifa según el consumo: menor a 100 kWh, tarifa baja; entre 100 y 200 kWh, tarifa media; más de 200 kWh, tarifa alta.
 
-    De for: el 3:
+    2. De for: el 3:
         Suma de los Primeros N Números
         Solicita un número N al usuario y calcula la suma de los primeros N números naturales.
 
-    De while: el 18:
+    3. De while: el 18:
         Juego de Adivinanza con Intentos Limitados
         El usuario tiene 5 intentos para adivinar un número aleatorio entre 1 y 50.
         
 
-    De switch: el 9:
+    4. De switch: el 9:
         Días en un Mes
         Pide el número de un mes y muestra cuántos días tiene.
 
-    De arreglos: el 5:
+    5. De arreglos: el 5:
         Contar Números Pares e Impares
         Llena un arreglo con N números y cuenta cuántos son pares y cuántos son impares.
 
